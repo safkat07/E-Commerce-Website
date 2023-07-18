@@ -1,5 +1,5 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 nav {
   background-color: #9376e0;
@@ -16,7 +16,6 @@ nav {
 .logo-conatiner {
   display: flex;
   width: 50%;
-  
 }
 .logo-conatiner img {
   width: 50px;
@@ -29,94 +28,125 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.nav-items-container li{
-list-style: none;
-font-size: 25px;
-color: white;
+.nav-items-container li {
+  list-style: none;
+  font-size: 25px;
+  color: white;
 }
-.logo-conatiner p{
-font-size: 30px;
+.logo-conatiner p {
+  font-size: 30px;
 }
-.hive-section{
-    color: #e893cf;
+.hive-section {
+  color: #e893cf;
 }
-.nav-items-container .login-btn{
-    background-color: #e893cf;
-    padding: 10px 20px;
-    font-weight: 700;
-    border-radius: 5px;
-    border: none;
-    color: black;
-    text-align: center;
+.nav-items-container .login-btn {
+  background-color: #e893cf;
+  padding: 10px 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  text-align: center;
 }
 
 /* end of nav section  */
 
 /* banner section  */
 
-.banner-section{
-    max-width: 1400px;
-    min-height: 50px;
-    margin: 50px auto 50px;
+.banner-section {
+  max-width: 1400px;
+  min-height: 50px;
+  margin: 50px auto 50px;
+  display: flex;
+  background-color: #e6e9eb;
+  border-radius: 10px;
+  padding: 10px;
+}
+.banner-text {
+  width: 50%;
+  text-align: center;
+}
+.banner-text h1 {
+  background-image: linear-gradient(to bottom, #9376e0, #e893cf);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 50px;
+}
+.banner-text p {
+  font-size: 45px;
+}
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 40px;
+  width: 60%;
+}
+.fa-brands {
+  font-size: 60px;
+}
+.facebook {
+  color: blue;
+}
+.youtube {
+  color: red;
+}
+.twitter {
+  color: skyblue;
+}
+.instagram {
+  color: pink;
+}
+.banner-btn {
+  border: 1px solid burlywood;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-weight: 700;
+}
+.banner-img {
+  width: 50%;
+}
+.banner-img img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* product section  */
+.grid-container {
+  display: grid;
+  max-width: 1400px;
+  min-height: 400px;
+  margin: 50px auto 0;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.single-product {
+  background-color: rgba(112, 128, 144, 0.281);
+  border-radius: 10px;
+  padding: 0 10px;
+  box-shadow: 2px 2px 4px black;
+}
+.single-product img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.product-icon-name-container{
     display: flex;
-    background-color: #e6e9eb;
-    border-radius: 10px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.product-icon-name-container span{
     padding: 10px;
-
+    background-color: #9376e0;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    color: white;
 }
-.banner-text{
-    width: 50%;
-    text-align: center;
-    
-}
-.banner-text h1{
-    background-image: linear-gradient(to bottom, #9376e0,#e893cf);
-    color: transparent;
-   -webkit-background-clip: text;
-    font-size: 50px;
-}
-.banner-text p{
-    font-size: 45px;
-}
-.icons-container{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto 40px;
-    width: 60%;
-
-}
-.fa-brands{
-    font-size: 60px;
-}
-.facebook{
-    color: blue;
-}
-.youtube{
-    color: red;
-}
-.twitter{
-    color: skyblue;
-}
-.instagram{
-    color: pink;
-}
-.banner-btn{
-    border: 1px solid burlywood;
-    text-align: center;
-    padding: 10px 20px;
-    background-color: transparent;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    font-weight: 700;
-
-}
-.banner-img{
-    width: 50%;
-}
-.banner-img img{
-    width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
-}
-

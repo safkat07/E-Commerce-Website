@@ -35,4 +35,9 @@
         font-size: 30px;
     }
 
+    .grid-container{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    
 }
